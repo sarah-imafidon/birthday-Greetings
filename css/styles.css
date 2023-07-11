@@ -277,6 +277,7 @@ body {
 }
 .float img{
   width: 350px;
+shape-outside: polygon(101.23% 116px, 101.65% 61.38%, 99.99% 75.36%, 90.02% 83.46%, -3.41% 91.55%, 266px 6.66%, 329px 29.41%);
 }
 #tribute p{
   
