@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+<link rel="preconnect" href="http://www.instgram.com">
+    <title>Happy Birthday Uncle Onyemaechi Godwin Uhara</title>
+
+   <link rel="stylesheet" href="styles (1).css">
+
+</head>
+<body>
+    <header>
+        <h1>&#x1F389;Happy Birthday Uncle Onyemachara&#x1F938;&#x200D;&#x2642;&#xFE0F; &#x1F382;!!!</h1>
+        <img src="Onye-ventana.jpg" alt="Birthday Celebration">
+    </header>
+    
+    <section id="tribute">
+        <h2>Our tribute to Onye ....</h2>
+        <p>Thank God for days like this when we can all truely expess how much we love and appreciate you. &#x1F91F;</p>
+          <p> Dear Uncle, we want to take a moment to express just how kind and selfless you are. Your unwavering thoughtfulness and generosity have touched our lives in countless ways. Whether it's lending a helping hand or brightening our days with your infectious laughter, you have a remarkable ability to make everyone around you feel truly happy.</p>
+           <p class="float"><img src="onye-angels.jpg" alt="family picture">
+           We are incredibly proud of the person you've become. Your daily efforts to make a difference, big or small, never go unnoticed. Your compassion and willingness to go above and beyond for others serve as an inspiration to us all. You continuously demonstrate that kindness and selflessness can make a tremendous impact on the world.Thank you for being the amazing Uncle that you are. 
+        </p>
+           <p> <span style="font-weight: bold;">With love and admiration,</span></p>
+            <p><span style="color: blue;font-weight: bold;font-size:large;">Some of the women in your live &#x1F49E;</span>
+        </p>
+        
+        
+    </section>
+    
+    <section id="gallery">
+      <div>
+        <h2>Gallery</h2>
+        
+            <div class="slideshow-container">
+                <img src="onye and caro.jpg" alt="Photo of my brother 1">
+                <img src="onye bobo.jpg" alt="Photo 2">
+                <img src="onye 2.jpg" alt="Photo 2">
+                <img src="bestest-uncle.jpg" alt="Photo 2">
+                <img src="fresh-onye.jpg" alt="Photo 2">
+              
+                <!-- Add more images as needed -->
+              </div>
+    </section>
+    
+    
+    
+    <section id="video">
+          
+      <div class="video-section">
+        <h2>Funny Videos</h2> 
+            <iframe src="onye-dance.mp4" frameborder="0"  class="video"></iframe>
+            <p><span style="font-size: 1.2rem;">Never a dull moment with this man &#x1F483;&#x1F483;&#x1F483;<br> see how Ruth and Edna spoil this video&#x1F923;</span></p>
+        </div>
+      </div>
+    </section>
+        <!-- Add more funny videos -->
+        <section id="card">
+
+            <h2>Virtual Birthday Card</h2>
+            <p>Leave a funny message for Uncle Godwin <span style="color:blue;font-size: 1rem;font-weight: bold;">(do not forget to include your name)</span>!</p>
+            <form onsubmit="submitMessage(event)">
+              <textarea name="message" id="messageInput" placeholder="Write your funny message here"></textarea>
+              <button type="submit" style="display: block">Submit</button>
+            </form>
+            <div id="messages">
+              <h3>Funny Messages:</h3>
+              <ul id="messageList"></ul>
+            </div>
+          </section>
+          <script>
+            const messageList = document.getElementById('messageList');
+        
+            function submitMessage(event) {
+              event.preventDefault();
+        
+              const messageInput = document.getElementById('messageInput');
+        
+              const message = messageInput.value.trim();
+              if (message !== '') {
+                const listItem = document.createElement('li');
+                listItem.innerText = message;
+                messageList.appendChild(listItem);
+        
+                messageInput.value = ''; // Clear the input field after submission
+              }
+            }
+          </script>
+        
+ <section class="footer">
+        <footer>
+             <p>&copy; 2023 <br/> By Sarah Imafidon</p>
+        </footer>
+ </section>
+
+        
+    </body>
+    </html>
+    
+        
